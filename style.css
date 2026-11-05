@@ -1,0 +1,162 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #FFF7FB;
+    color: #554653;
+    padding: 20px;
+}
+
+.container {
+    max-width: 550px;
+    margin: auto;
+}
+
+.header {
+    margin: 15px 0 25px;
+}
+
+.header h1 {
+    color: #C58FB5;
+    font-size: 28px;
+}
+
+.header p {
+    color: #A994A4;
+    margin-top: 8px;
+}
+
+.balance-card {
+    background: linear-gradient(135deg, #E9C7DE, #CBBCEB);
+    color: white;
+    padding: 25px;
+    border-radius: 22px;
+    box-shadow: 0 6px 20px #D9C6DC66;
+}
+
+.balance-card h2 {
+    font-size: 35px;
+    margin: 12px 0 25px;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary-item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.summary-item h3 {
+    font-size: 19px;
+}
+
+.form-card,
+.history-card {
+    background: white;
+    padding: 23px;
+    border-radius: 20px;
+    margin-top: 22px;
+    box-shadow: 0 4px 15px #D9C6DC22;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #EADCE8;
+    border-radius: 10px;
+    background: #FFFAFD;
+    color: #554653;
+    font-size: 15px;
+}
+
+button {
+    background: #D9A9C9;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 14px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+button:hover {
+    background: #C68DB5;
+}
+
+.transaction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 0;
+    border-bottom: 1px solid #F2EAF1;
+}
+
+.transaction p {
+    font-size: 13px;
+    color: #A994A4;
+    margin-top: 5px;
+}
+
+.income-text {
+    color: #55A889;
+}
+
+.expense-text {
+    color: #DF8295;
+}
+
+.delete-btn {
+    padding: 7px 10px;
+    margin: 5px 0 0;
+    font-size: 12px;
+    background: #F4D5DF;
+    color: #9B5269;
+}
+
+.empty {
+    text-align: center;
+    color: #B5A7B3;
+    padding: 20px 0;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    color: #B5A7B3;
+    margin: 25px 0;
+}
+
+@media (max-width: 400px) {
+    body {
+        padding: 12px;
+    }
+}
